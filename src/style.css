@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  min-height: 100%;
+  background: #abd5ff;
+  color: #000;
+}
+/* Classes */
+
+.mainDiv {
+  margin: auto;
+  width: 80%;
+  padding: 150px 10px 10px 10px;
+}
+.mainDiv h1 {
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.button {
+  color: #50a7fd;
+  border-color: #abd5ff;
+  background-color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  font-size: 20px;
+  border-radius: 300px;
+  padding: 10px;
+  border-style: solid;
+}
+.button:hover {
+  color: #747474;
+  background-color: #fff3be;
+}
+.input {
+  font-size: 20px;
+  text-size-adjust: inherit;
+  border-color: #abd5ff;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  border-style: solid;
+}
+.delBtn {
+  color: #50a7fd;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.delBtn:hover {
+  color: #ffffff;
+  background-color: #fdb4b4;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+  background-color: #fff3be;
+  border-radius: 15px;
+  padding: 15px;
+  margin-right: 5px;
+}
