@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Task list App</title>
-    <link rel="stylesheet" href="style.css" />
+    <script src="../dest/index.js">
+       
+    </script>
   </head>
   <body>
     <div>
@@ -13,24 +15,22 @@
       <p>With this simple app you can add, edit or delete your task.</p>
     </div>
     <div>
-        <h2>Create a new Task</h1>
       <form>
+        <h2>Create a new Task</h1>
+
         <p>Title of task:</p>
         <input type="text" id="title" />
-
-        <p>Task description:</p>
-        <input type="text" id="description" />
         <br>
-        <button type="submit" id="submitTask">Submit</button>
+        <button type="submit" id="submitTask" onclick="createTask();">Submit</button>
       </form>
     </div>
     <div>
-      <ul>
-        <li>This will be the list!</li>
+      <ul id="taskList">
+      
       </ul>
     </div>
-    <script src="../dest/index.js">
-      initFunction();
+    <script>
+      printTaskList()
     </script>
   </body>
 </html>
